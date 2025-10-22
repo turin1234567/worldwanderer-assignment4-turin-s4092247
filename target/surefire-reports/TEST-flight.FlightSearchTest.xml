@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="flight.FlightSearchTest" time="0.042" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final/target/test-classes:/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final/target/classes:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/diyaa/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/diyaa/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/diyaa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/diyaa/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/diyaa/FlightComparison/openJdk-24.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final/target/surefire/surefirebooter-20251022210229121_3.jar /Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final/target/surefire 2025-10-22T21-02-29_066-jvmRun1 surefire-20251022210229121_1tmp surefire_0-20251022210229121_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="flight.FlightSearchTest"/>
+    <property name="surefire.test.class.path" value="/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final/target/test-classes:/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final/target/classes:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/diyaa/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/diyaa/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/diyaa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/diyaa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/diyaa/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/diyaa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/Users/diyaa/FlightComparison/openJdk-24.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final/target/surefire/surefirebooter-20251022210229121_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="diyaa"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Users/diyaa/.vscode/extensions/oracle.oracle-java-24.1.2/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/diyaa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/yj/2_ym9sgs79b69d78t_jr0kv80000gn/T/"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/diyaa/Downloads/worldwanderer-assignment4-turin-s4092247-final"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/diyaa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="valid_firstClassAdultsOnly" classname="flight.FlightSearchTest" time="0.017"/>
+  <testcase name="invalid_sameAirport" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_nonexistentDate" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="valid_familyEconomyNonEmergency" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_totalAboveMax" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_totalBelowMin" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_airportUnsupported" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_infantInExitRow" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_returnBeforeDeparture" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_childInFirstClass" classname="flight.FlightSearchTest" time="0.001"/>
+  <testcase name="invalid_unsupportedClass" classname="flight.FlightSearchTest" time="0.001"/>
+  <testcase name="valid_premiumEconomySingleAdult" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="children_more_than_two_per_adult_is_rejected" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="more_than_one_infant_per_adult_is_rejected" classname="flight.FlightSearchTest" time="0.001"/>
+  <testcase name="invalid_infantInBusiness" classname="flight.FlightSearchTest" time="0.001"/>
+  <testcase name="economy_adults_only_can_use_exit_row" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_exitRowNonEconomy" classname="flight.FlightSearchTest" time="0.001"/>
+  <testcase name="invalid_departureInPast" classname="flight.FlightSearchTest" time="0.0"/>
+  <testcase name="invalid_childInExitRow" classname="flight.FlightSearchTest" time="0.0"/>
+</testsuite>
