@@ -1,0 +1,18 @@
+# Ignore build output directories
+target/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs, temporary, and backup files
+*.log
+*.tmp
+*.bak
+
+# Ignore Maven wrapper binaries (if any)
+.mvn/wrapper/maven-wrapper.jar
